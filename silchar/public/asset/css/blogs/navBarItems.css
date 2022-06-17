@@ -1,0 +1,53 @@
+.heading_portion {
+    color: white;
+    text-align: center;
+    margin-top: -5.7cm;
+    margin-bottom: 5cm;
+    width: 9cm;
+    border: solid;
+}
+
+.blogName {
+   color: #f8ff75;
+   text-decoration: overline;
+   text-align: center;
+}
+
+.division{
+      background-color:black;
+      margin-top: -1.2cm;
+      padding-bottom:5cm;
+      margin-bottom: -0.7cm;
+}
+
+.writing_and_image{
+   display:flex;
+   width: 83%;
+   margin-right:10px;
+   margin-left:10px;
+   margin-top: 20px;
+}
+
+.writing_blog{
+   color:white;
+   margin-top: 60px;
+}
+
+.image_blog {
+    width: 10cm;
+    margin-right: 3cm;
+    border: solid azure;
+    opacity:100%;
+}
+
+.image_blog:hover{
+   opacity:100%;
+}
+
+.writeName{
+   color:wheat;
+}
+
+#link_to_navBar_button{
+   text-decoration: none;
+}

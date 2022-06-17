@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(145, 145, 145, 0.432);
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+.table {
+    width: 95%;
+    margin-left: 37px;
+    margin-right: 37px;
+    margin-top: 43px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+        color: white;
+        text-decoration: none;
+}
+
+button{
+    width: 3cm;
+}
+
+#footer {
+    padding-top: 41px;
+}
+
+#home {
+    color: black;
+    -webkit-text-stroke: thick;
+}
+a{
+    text-decoration: none;
+}
+
+center{
+    margin-top: 1cm;
+}
+center a#home_link {
+    padding-right: 36px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#addDishButton{
+    color: #fff;
+    height: 48px;
+    width: 50%;
+    background-color: #00cd09;
+    border-color: #00cd09;
+    margin-left: 25%;
+}
+
+#addDishButton:hover{
+    background-color: #007406;
+    border-color: #007406;
+}
+
+#image_dish{
+    height: 2cm;
+    width: 3cm;
+}
+#name_heading{
+    color: black;
+}
+
+#name_heading:hover{
+    color: rgb(255, 0, 0);
+}
+
+#displayMessage{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1cm;
+    color: rgb(124, 0, 0);
+}
+.remove{
+    margin-top: 4px;
+    background-color: red;
+}

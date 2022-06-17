@@ -1,0 +1,11 @@
+#part_two{
+    padding-left: 10%;;
+}
+
+.showFailureMessage {
+    color: #d51818;
+}
+
+.showSuccessMessage{
+    color: rgb(3, 75, 3);
+}

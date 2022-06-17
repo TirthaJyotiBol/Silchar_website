@@ -1,0 +1,40 @@
+*{
+    scroll-behavior: smooth;
+}
+.cards {
+    display: flex;
+    margin-top: -10pc;
+    margin-left: 18%;
+}
+.ThirdPart{
+    padding-top: 60px;
+}
+.ThirdPart h2{
+    text-align: center;
+    color: black;
+}
+form {
+    padding-left: 33%;
+    margin-top: 18px;
+}
+label{
+    color: rgb(99, 92, 92);
+    text-orientation: sideways-right;
+}
+input{
+    width: 12cm;
+    margin-left: 2cm;
+    margin-top: 14px;
+    border: solid rgb(39, 39, 39) 1px;
+    padding-left: 15px;
+    padding : 6px;
+    margin-top: 6px;
+}
+button.submit_button {
+    width: 5cm;
+    background: #fc2020;
+    margin-left: 15%;
+}
+.submit_button:hover{
+    background-color :rgba(214, 42, 42, 0.849);
+}

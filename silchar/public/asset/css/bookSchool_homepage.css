@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(184, 184, 184);
+}
+section.admission_form {
+    background-color: white;
+    margin: 10%;
+    margin-left: 25%;
+    border: solid 1px;
+    padding: 2%;
+    padding-left: 10%;
+    width: 40%;
+}
+
+a#link_admission_heading {
+    margin-left: 22%;
+    text-decoration: none;
+    color: rgb(255, 37, 37);
+}
+a#link_admission_heading:hover {
+    color: rgb(0, 204, 231);
+}
+
+label#label_grade {
+    margin-left: 23%;
+}
+label#label_age {
+    margin-left: 38%;
+}
+label#label_phone {
+    margin-left: 27.5%;
+}
+
+label#label_school {
+    margin-left: -17px;
+}
+
+button#button {
+    width: 4cm;
+    background: #ff3030;
+    height: 1cm;
+    color: white;
+    margin-left: -1cm;
+    cursor: pointer;
+    border: none;
+}
+
+.result_pass {
+    color: #04d604;
+}
+

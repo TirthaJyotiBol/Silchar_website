@@ -1,0 +1,77 @@
+
+.first{
+    width: 45%;
+    margin-right: -7cm;
+}
+
+.first h1 a{
+    color: black;
+    text-decoration: none;
+}
+.first h1 a:hover{
+    color: rgb(70, 112, 252);
+    text-decoration: none;
+}
+.flex_doctor_add_form{
+    display: flex;
+}
+
+#heading_add_doctor {
+    margin-left: 5%;
+    margin-top: 41%;
+    word-spacing: 12px;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy;
+}
+
+form {
+    width: 55%;
+    padding-left:-2cm;
+    margin-top: 2%;
+}
+label{
+    margin-bottom: 15px;
+    
+}
+input {
+    margin-top: 4px;
+    width: 58%;
+    height: 0.6cm;
+    padding-left: 5px;
+}
+select#select_specialist {
+    margin-top: 4px;
+    width: 54%;
+    height: 0.6cm;
+}
+#doctor_address{
+    margin-top: 4px;
+}
+TextArea{
+    padding-left: 5px;
+}
+button#submit_button {
+    width: 58%;
+    background: rgba(0, 0, 0, 0.952);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 31px;
+}
+
+#submit_button:hover{
+    background: rgb(255, 0, 0);
+}
+
+.showFailureMessage{
+    color: red;
+    margin-left: 9%;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.showSuccessMessage{
+    color: rgb(12, 148, 0);
+    margin-top: 20px;
+    font-size: large;
+}

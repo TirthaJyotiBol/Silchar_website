@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+
+center{
+    margin-top: 1cm;
+}
+center a#home_link {
+    padding-right: 36px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}

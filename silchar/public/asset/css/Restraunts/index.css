@@ -1,0 +1,113 @@
+#restraunt_navbar{
+    background-color: rgb(20, 17, 17);
+    display: flex;
+    padding: 22px;
+}
+#restraunt_navbar a{
+    text-decoration: none;
+}
+#restraunt_navbar a h2{
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav_items2{
+    display: flex;
+    margin-left: 35%;
+}
+
+.nav_items2 > ol > a > li:hover{
+    color: rgb(255, 255, 255);
+}
+
+ol{
+    display: flex;
+}
+
+ol a{
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: large;
+}
+
+.nav_items2 ol li{
+    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+}
+
+
+
+*{
+    color: rgb(192, 185, 185);
+    margin: 0;
+    padding: 0;
+}
+
+.image_portion{
+    height: 12cm;
+    width: 100%;
+    background-color: rgba(223, 0, 0, 0.808);
+}
+
+h1.silchar_eatery_heading {
+    color: white;
+    margin-top: 25px;
+    font-family: monospace;
+    text-shadow: 2ch;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.silchar_eatery_quote{
+    color: yellow;
+    font-size: xx-large;
+    text-align: center;
+}
+
+input#search {
+    width: 43%;
+    margin-top: 12%;
+    margin-left: 25%;
+    height: 35px;
+    padding-left: 25px;
+    color: gray;
+}
+
+button.search_button {
+    width: 15%;
+    height: 1cm;
+    border: black;
+    color: white;
+    cursor: pointer;
+    background: black;
+    /* margin-top: 20px; */
+    margin-left: 2px;;
+}
+
+button.search_button:hover{
+    background: rgba(3, 2, 2, 0.87);
+}
+
+.heading_allRestraunts{
+    color: black;
+    margin: 25px;
+}
+
+.buttons_differentaddress{
+    margin-left: 75px;
+}
+
+button#dascolony {
+    background: #00df00;
+    border: none;
+    height: 29px;
+    color: white;
+    margin: 9px;
+    cursor: pointer;
+    width: 10%;
+}
+
+button#dascolony:hover{
+    background: #00ca00;
+}

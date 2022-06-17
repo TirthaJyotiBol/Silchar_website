@@ -1,0 +1,85 @@
+
+h1.Heading_book_page {
+    font-family: 'Bebas Neue';
+    margin-top: -7cm;
+    color: floralwhite;
+    width: 14cm;
+    word-spacing: 26px;
+    border: none;
+    padding-bottom: 12px;
+    margin-bottom:-10px;
+}
+nav hr {
+    margin: 1rem 0;
+    width: 15cm;
+    color: white;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+}
+/* nav .navbars {
+    display: flex;
+    padding-top: 2%;
+    padding-left: 40%;
+} */
+body  h2.options_caption {
+    text-align: center;
+    margin-top: 19%;
+    font-family: serif;
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+.card_heading{
+    text-align: center;
+    font-family: serif;
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+.links{
+    display:flex;
+    margin-left : 3%;
+    margin-top: 5%;
+}
+
+div#div_items {
+    margin-left: 12pc;
+    width: 25px;
+}
+
+.fontHeadings {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: system-ui;
+}
+
+i#font_awesome_items {
+    border: solid;
+    padding: 12px;
+    border-radius: 59%;
+}
+
+i#font_awesome_items:hover {
+    border: solid #b7b7b7;
+    padding: 12px;
+    cursor: pointer;
+    background: #61616175;
+    color: white;
+    border-radius: 59%;
+}
+
+.cards_section .links{
+    margin-left:15%;
+}
+
+
+.detailingLinks_footer a.links {
+    padding-left: 19px;
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: none;
+    width: 140px;
+    margin-top: -12px;
+    font-size: 11px;
+}

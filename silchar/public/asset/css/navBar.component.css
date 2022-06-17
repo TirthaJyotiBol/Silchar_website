@@ -1,0 +1,44 @@
+*{ 
+    margin: 0; 
+    padding: 0;
+}
+.navbars{ 
+   display: flex;
+   padding-top: 4%;
+   padding-left: 40%;
+}
+
+.navBar_itemss {
+   padding-top: -5%;
+   margin-left: 7%;
+}
+
+.navBar_itemss a {
+   text-decoration: none;
+   color: #dde4e9;
+   font-size: 21px;
+   font-family:'Times New Roman', Times, serif;
+}
+
+.navBar_itemss a:hover{
+   color: #ffffff;
+}
+
+.image{
+   display: flex;
+   /* background: rgba(87, 84, 84, 0.637) url("https://cdn.pixabay.com/photo/2014/05/03/00/36/manhattan-336591__340.jpg") ; */
+   background: rgba(87, 84, 84, 0.637) url("https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_960_720.jpg") ; 
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+   height: 30pc;
+}
+.logo{
+   width: 20px;
+}
+img{
+   width: 187px;
+}
+
+
+/* Nav Bar Component  */

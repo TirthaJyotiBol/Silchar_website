@@ -1,0 +1,42 @@
+.cardPortion{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card_food>#cardImage {
+    height: 7cm;
+    width: 7cm;
+}
+
+.card_food {
+    margin: 25px;
+    border: black solid 1px;
+    width: min-content;
+}
+
+.card_food:hover{
+    opacity: 97%;
+}
+
+#restraunt_name {
+    margin-left: 12px;
+    color: black;
+    font-family: system-ui;
+}
+
+#address_email {
+    color: #313030;
+    margin-bottom: 4px;
+    margin-left: 12px;
+}
+
+#button_book {
+    width: 75%;
+    color: whitesmoke;
+    margin-left: 35px;
+    border: black;
+    cursor: pointer;
+    background: black;
+    margin-top: 5px;
+    height: 27px;
+    margin-bottom: 14px;
+}
